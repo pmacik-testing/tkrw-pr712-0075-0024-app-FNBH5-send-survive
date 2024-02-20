@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-holl
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0024-tenant/tkrw-pr712-0075-0024-app/devfile-sample-holl@sha256:ad6b8807b7d5d62e202323a68ddfdac7ded1eae21242c4db8cd0ed200b8fb09a
         name: my-nodejs
         ports:
         - containerPort: 3001
